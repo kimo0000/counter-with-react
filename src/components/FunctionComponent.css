@@ -1,0 +1,9 @@
+.count {
+    display: block;
+    color: green;
+    font-weight: bold;
+    margin: "0 8px";
+}
+.count.minus_zero {
+    color: red;
+}

@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 45px;
+    background-color: rgba(120, 74, 80, .5);
+}
+.items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+.item {
+    cursor: pointer;
+    transition: .3s;
+}
+.item:hover {
+    color: red;
+}
+a {
+    text-decoration: none;
+}
